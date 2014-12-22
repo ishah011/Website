@@ -1,0 +1,62 @@
+body{
+	background: #1A1A1A;
+}
+h1{
+	color: white;
+	font-family: 'Arimo', sans-serif;
+	font-weight: 400;
+	font-size: 50px;
+	text-align: center;
+}
+img.mainpic{
+	border-style: solid;
+	border-color: white;
+	border-size: 2px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+}
+li.nav{
+	display: inline;
+	text-color: white;
+}
+/* unvisited link */
+a:link {
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* visited link */
+a:visited {
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* mouse over link */
+a:hover {
+    color: #75FFFF;
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    background: #2C2C2C;
+}
+
+/* selected link */
+a:active {
+    color: #75FFFF;
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+    text-decoration: none;
+    padding: 10px;
+}
+.nav-bar{
+	position: fixed;
+}
