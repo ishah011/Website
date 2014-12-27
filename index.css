@@ -1,32 +1,59 @@
-body{
+html{
 	background: #1A1A1A;
+    background: url("http://i.imgur.com/Yh7pIC3.jpg") no-repeat fixed;/*setting the background of the page*/
+    background-width: 100%;/*making the image span the entire page*/
+    background-height: auto;
+    background-position: center;
 }
 h1{
 	color: white;
 	font-family: 'Arimo', sans-serif;
-	font-weight: 400;
+	font-weight: bold;
 	font-size: 50px;
 	text-align: center;
+    position: inline;/*set the element inline with everything else*/
+    width: 75%;
+    height:auto;
+    margin-left: auto;/*centering the element*/
+    margin-right: auto;
 }
 img.mainpic{
 	border-style: solid;
 	border-color: white;
 	border-size: 2px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	border-radius: 50%;
+    position: inline;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
 }
 li.nav{
 	display: inline;
-	text-color: white;
-}
-/* unvisited link */
-a:link {
+	color: white;
     font-family: 'Arimo', sans-serif;
     font-size: 16px;
-    color: #FFFFFF;
     text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+}
+li.nav:hover{/*when the user hovers over the navigation bar text, they will be a different color*/
+    color: #75FFFF;
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    background: rgba(44, 44, 44, 0.5); /*add transparency to the background of the hovered text*/
+    cursor: pointer;
+}
+ul{
+    position: fixed;/*so the navigation bar doesnt move*/
+}
+/* unvisited link */
+a:link{
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    color: #75FFFF;
+    text-decoration: underline;
     padding: 10px;
 }
 
@@ -44,9 +71,8 @@ a:hover {
     color: #75FFFF;
     font-size: 16px;
     font-family: 'Arimo', sans-serif;
-    text-decoration: none;
+    text-decoration: underline;
     padding: 10px;
-    background: #2C2C2C;
 }
 
 /* selected link */
@@ -60,3 +86,218 @@ a:active {
 .nav-bar{
 	position: fixed;
 }
+#beginning{
+    font-family: 'Arimo', sans-serif;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    position: inline;
+    width: 75%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.information{
+    font-family: 'Arimo', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    padding: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width:75%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 2px;
+    background-color:rgba(46, 46, 46, 0.65);
+}
+.title{/*gives the title a different font size than the rest of the information*/
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    width:75%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+#copyright{
+    font-family: 'Arimo', sans-serif;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    padding: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width:75%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 2px;
+}
+@media all and (min-width: 10px) and (max-width: 420px){ 
+    body {
+        background: #000;
+    }
+    h1{
+        font-size:50%;
+        width: 75%;
+    }
+    img.mainpic{
+        max-width:50%;
+        height:auto;
+    }
+    li.nav{
+        font-size: 50%;
+    }
+    li.nav:hover{
+        font-size: 50%;
+    }
+    a:link{
+        font-size: 50%;
+    }
+    a:visited {
+        font-size: 50%;
+    }
+    a:hover {
+        font-size: 50%;
+    }
+    a:active {
+        font-size: 50%;
+    }
+    #beginning{
+        font-size: 50%;
+        width: 75%;
+        height:auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .information{
+        width:75%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 50%;
+    }
+    .title{/*gives the title a different font size than the rest of the information*/
+        width:75%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 50%;
+    }
+    #copyright{
+        font-size: 50%;
+    }
+}
+@media all and (min-width: 420px) and (max-width: 720px){ 
+    h1{
+        font-size:75%;
+        width: 75%;
+    }
+    img.mainpic{
+        max-width:75%;
+        height:auto;
+    }
+    li.nav{
+        font-size: 75%;
+    }
+    li.nav:hover{
+        font-size: 75%;
+    }
+    a:link{
+        font-size: 75%;
+    }
+    a:visited {
+        font-size: 75%;
+    }
+    a:hover {
+        font-size: 75%;
+    }
+    a:active {
+        font-size: 75%;
+    }
+    #beginning{
+        font-size: 75%;
+        width: 75%;
+        height:auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .information{
+        width:75%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 75%;
+    }
+    .title{/*gives the title a different font size than the rest of the information*/
+        width:75%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 75%;
+    }
+    #copyright{
+        font-size: 75%;
+    }
+@media all and (min-width: 720px) and (max-width: 1024px){ 
+    body {
+        background: #000;
+    }
+    h1{
+        font-size:100%;
+        width: 75%;
+    }
+    img.mainpic{
+        max-width:100%;
+        height:auto;
+    }
+    li.nav{
+        font-size: 100%;
+    }
+    li.nav:hover{
+        font-size: 100%;
+    }
+    a:link{
+        font-size: 100%;
+    }
+    a:visited {
+        font-size: 100%;
+    }
+    a:hover {
+        font-size: 100%;
+    }
+    a:active {
+        font-size: 100%;
+    }
+    #beginning{
+        font-size: 100%;
+        width: 75%;
+        height:auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .information{
+        width:75%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 100%;
+    }
+    .title{/*gives the title a different font size than the rest of the information*/
+        width:75%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 100%;
+    }
+    #copyright{
+        font-size: 100%;
+    }
