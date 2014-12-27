@@ -21,7 +21,7 @@ function change2(){//hide all the elements except for the Experience, fade that 
 	$(wrkBtn).hide();
 	$(cntBtn).hide();
 	$(copy).hide();
-	document.body.style.backgroundImage="url('http://i.imgur.com/5slMcmh.jpg')";/*document.body.style.backgroundImage="url('http://i.imgur.com/nX3sy7F.jpg')"; document.body.style.backgroundImage="url('http://i.imgur.com/R4pQOBs.jpg')"; */
+	document.body.style.backgroundImage="url('http://i.imgur.com/nX3sy7F.jpg')";
 }
 function change3(){//hide all the elements except for the Work, fade that in at medium speed//
 	$(expBtn).hide();

@@ -1,16 +1,16 @@
-html{
-	background: #1A1A1A;
+body{
+    background: #1A1A1A;
     background: url("http://i.imgur.com/Yh7pIC3.jpg") no-repeat fixed;/*setting the background of the page*/
     background-width: 100%;/*making the image span the entire page*/
     background-height: auto;
     background-position: center;
 }
 h1{
-	color: white;
-	font-family: 'Arimo', sans-serif;
-	font-weight: bold;
-	font-size: 50px;
-	text-align: center;
+    color: white;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
     position: inline;/*set the element inline with everything else*/
     width: 75%;
     height:auto;
@@ -18,9 +18,9 @@ h1{
     margin-right: auto;
 }
 img.mainpic{
-	border-style: solid;
-	border-color: white;
-	border-size: 2px;
+    border-style: solid;
+    border-color: white;
+    border-size: 2px;
     position: inline;
     display: block;
     margin-left: auto;
@@ -28,8 +28,8 @@ img.mainpic{
     border-radius: 50%;
 }
 li.nav{
-	display: inline;
-	color: white;
+    display: inline;
+    color: white;
     font-family: 'Arimo', sans-serif;
     font-size: 16px;
     text-decoration: none;
@@ -84,7 +84,7 @@ a:active {
     padding: 10px;
 }
 .nav-bar{
-	position: fixed;
+    position: fixed;
 }
 #beginning{
     font-family: 'Arimo', sans-serif;
