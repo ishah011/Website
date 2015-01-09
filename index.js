@@ -13,7 +13,7 @@ function change1(){//hide all the elements except for the About, fade that in at
 	$(wrkBtn).hide();
 	$(cntBtn).hide();
 	$(copy).hide();
-	document.body.style.backgroundImage="url('http://i.imgur.com/KZuPcKH.jpg')";
+	document.body.style.backgroundImage="url('https://raw.githubusercontent.com/ishah011/Website/gh-pages/images/Aboutbg.jpg')";
 }
 function change2(){//hide all the elements except for the Experience, fade that in at medium speed//
 	$(aboutBtn).hide();
@@ -21,7 +21,7 @@ function change2(){//hide all the elements except for the Experience, fade that 
 	$(wrkBtn).hide();
 	$(cntBtn).hide();
 	$(copy).hide();
-	document.body.style.backgroundImage="url('http://i.imgur.com/nX3sy7F.jpg')";
+	document.body.style.backgroundImage="url('https://raw.githubusercontent.com/ishah011/Website/gh-pages/images/Experiencebg.jpg')";
 }
 function change3(){//hide all the elements except for the Work, fade that in at medium speed//
 	$(expBtn).hide();
