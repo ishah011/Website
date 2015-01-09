@@ -43,7 +43,7 @@ function change5(){//hide all the elements and change the background image//
 	$(wrkBtn).hide();
 	$(cntBtn).hide();
 	$(copy).show();
-	document.body.style.backgroundImage="url('http://i.imgur.com/Yh7pIC3.jpg')";
+	document.body.style.backgroundImage="url('https://raw.githubusercontent.com/ishah011/Website/gh-pages/images/homebg.jpg')";
 }
 var about = document.getElementById("about-click");//create variable that is assigned to the about button on the nav bar//
 about.addEventListener('click', function(event) {//attach the change1 function to the about button; excutes it when about is clicked//
