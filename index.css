@@ -1,6 +1,6 @@
 body{
     background: #1A1A1A;
-    background: url("http://i.imgur.com/Yh7pIC3.jpg") no-repeat fixed;/*setting the background of the page*/
+    background: url("https://raw.githubusercontent.com/ishah011/Website/gh-pages/images/homebg.jpg") no-repeat fixed;/*setting the background of the page*/
     background-width: 100%;/*making the image span the entire page*/
     background-height: auto;
     background-position: center;
