@@ -29,6 +29,7 @@ function change3(){//hide all the elements except for the Work, fade that in at 
 	$(wrkBtn).fadeIn("medium");
 	$(cntBtn).hide();
 	$(copy).hide();
+	document.body.style.backgroundImage="url('')";
 }
 function change4(){//hide all the elements except for the Contact, fade that in at medium speed//
 	$(expBtn).hide();
@@ -36,6 +37,7 @@ function change4(){//hide all the elements except for the Contact, fade that in 
 	$(wrkBtn).hide();
 	$(cntBtn).fadeIn("medium");
 	$(copy).hide();
+	document.body.style.background="black";
 }
 function change5(){//hide all the elements and change the background image//
 	$(expBtn).hide();

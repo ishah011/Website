@@ -45,7 +45,7 @@ li.nav:hover{/*when the user hovers over the navigation bar text, they will be a
     background: rgba(44, 44, 44, 0.5); /*add transparency to the background of the hovered text*/
     cursor: pointer;
 }
-ul{
+ul.nav-bar{
     position: fixed;/*so the navigation bar doesnt move*/
 }
 /* unvisited link */
@@ -140,6 +140,26 @@ a:active {
     margin-left: auto;
     margin-right: auto;
     letter-spacing: 2px;
+}
+table{
+    display: inline;
+}
+td.pictures{
+    display: table-cell;
+    vertical-align: inherit;
+    color: white;
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+td.description{
+    width: 360px;
+    display: table-cell;
+    vertical-align: inherit;
+    color: white;
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
 }
 @media all and (min-width: 10px) and (max-width: 420px){ 
     body {
