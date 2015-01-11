@@ -29,7 +29,7 @@ function change3(){//hide all the elements except for the Work, fade that in at 
 	$(wrkBtn).fadeIn("medium");
 	$(cntBtn).hide();
 	$(copy).hide();
-	document.body.style.backgroundImage="url('')";
+	document.body.style.backgroundImage="url('https://raw.githubusercontent.com/ishah011/Website/gh-pages/images/Workbg.jpg')";
 }
 function change4(){//hide all the elements except for the Contact, fade that in at medium speed//
 	$(expBtn).hide();
