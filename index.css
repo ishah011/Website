@@ -27,30 +27,6 @@ img.mainpic{
     margin-right: auto;
     border-radius: 50%;
 }
-/*.col-md-2{
-    display: inline;
-    color: white;
-    font-family: 'Arimo', sans-serif;
-    font-size: 16px;
-    text-decoration: none;
-    padding: 10px;
-    cursor: pointer;
-    min-width: 120px;
-    max-width: 120px;
-    text-align: center;
-}
-.col-md-2:hover{/*when the user hovers over the navigation bar text, they will be a different color*/
-    /*color: #75FFFF;
-    font-size: 16px;
-    font-family: 'Arimo', sans-serif;
-    text-decoration: none;
-    padding: 10px;
-    background: rgba(44, 44, 44, 0.5);
-    cursor: pointer;
-    min-width: 120px;
-    max-width: 120px;
-    text-align: center;
-}*/
 /* unvisited link */
 a:link{
     font-family: 'Arimo', sans-serif;
@@ -86,8 +62,10 @@ a:active {
     text-decoration: none;
     padding: 10px;
 }
-#nav-bar{
+.navbar-default{
     cursor: pointer;
+    background-color: rgba(44, 44, 44, 0.5);
+    color: #FFFFFF;
 }
 #beginning{
     font-family: 'Arimo', sans-serif;
@@ -145,23 +123,6 @@ a:active {
     margin-right: auto;
     letter-spacing: 2px;
 }
-/*table{
-    display: inline;
-    width: 100%;
-}
-td.pictures{
-    display: inline;
-    vertical-align: inherit;
-}
-td.description{
-    width: 360px;
-    display: table-cell;
-    vertical-align: inherit;
-    color: white;
-    font-family: 'Arimo', sans-serif;
-    font-size: 16px;
-    text-decoration: none;
-}*/
 .description{
     display: inline;
     vertical-align: inherit;
@@ -170,6 +131,11 @@ td.description{
     font-size: 16px;
     text-decoration: none;
 }
+.navbar-default .navbar-inner {
+    background-color: rgba(44, 44, 44, 0.5);
+    border-color: none;
+}
+
 @media all and (min-width: 10px) and (max-width: 420px){ 
     body {
         background: #000;

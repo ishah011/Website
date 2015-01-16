@@ -67,3 +67,4 @@ var home = document.getElementById("home-click");
 home.addEventListener('click', function(event) {
 		change5();
 	}, false);
+$(".navbar-toggle").collapse('toggle');
