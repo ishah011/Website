@@ -37,7 +37,7 @@ function change4(){//hide all the elements except for the Contact, fade that in 
 	$(wrkBtn).hide();
 	$(cntBtn).fadeIn("medium");
 	$(copy).hide();
-	document.body.style.background="black";
+	document.body.style.backgroundImage="url('https://raw.githubusercontent.com/ishah011/Website/gh-pages/images/contactbg.jpg')";
 }
 function change5(){//hide all the elements and change the background image//
 	$(expBtn).hide();
