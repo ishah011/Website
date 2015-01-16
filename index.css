@@ -131,18 +131,35 @@ a:active {
     font-size: 16px;
     text-decoration: none;
 }
+#Contact{
+    font-family: 'Arimo', sans-serif;
+    color: #FFFFFF;
+    font-size: 22px;
+    text-align: center;
+    padding: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    width:75%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 2px;
+}
 .navbar-default .navbar-inner {
     background-color: rgba(44, 44, 44, 0.5);
     border-color: none;
 }
-ul{
-    margin-left: auto;
-    margin-right: auto;
+i:hover{
+    color:#FF66CC;
+    cursor: pointer;
 }
-li{
-    list-style-type: none;
-    display: inline;
+.links:hover{
+    color:#FF66CC;
+    cursor: pointer;
 }
+
+
 
 @media all and (min-width: 10px) and (max-width: 420px){ 
     body {
