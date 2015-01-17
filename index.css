@@ -1,5 +1,5 @@
 body{
-    background: #1A1A1A;
+    background-color:#000000;
     background: url("https://raw.githubusercontent.com/ishah011/Website/gh-pages/images/homebg.jpg") no-repeat fixed;/*setting the background of the page*/
     background-width: 100%;/*making the image span the entire page*/
     background-height: auto;
