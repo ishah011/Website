@@ -13,7 +13,7 @@ function change1(){//hide all the elements except for the About, fade that in at
 	$(expBtn).hide();
 	$(cntBtn).hide();
 	$(copy).hide();
-	document.body.style.backgroundImage="url('https://raw.githubusercontent.com/ishah011/Website/gh-pages/images/Aboutbg.jpg')";
+	document.body.style.backgroundImage="url('images/Aboutbg.jpg')";
 }
 function change2(){//hide all the elements except for the Experience, fade that in at medium speed//
 	$(aboutBtn).hide();
@@ -21,7 +21,7 @@ function change2(){//hide all the elements except for the Experience, fade that 
 	$(expBtn).hide();
 	$(cntBtn).hide();
 	$(copy).hide();
-	document.body.style.backgroundImage="url('https://raw.githubusercontent.com/ishah011/Website/gh-pages/images/Experiencebg.jpg')";
+	document.body.style.backgroundImage="url('images/Experiencebg.jpg')";
 }
 function change3(){//hide all the elements except for the Work, fade that in at medium speed//
 	$(edBtn).hide();
@@ -29,7 +29,7 @@ function change3(){//hide all the elements except for the Work, fade that in at 
 	$(expBtn).fadeIn("medium");
 	$(cntBtn).hide();
 	$(copy).hide();
-	document.body.style.backgroundImage="url('https://raw.githubusercontent.com/ishah011/Website/gh-pages/images/Workbg.jpg')";
+	document.body.style.backgroundImage="url('images/Workbg.jpg')";
 }
 function change4(){//hide all the elements except for the Contact, fade that in at medium speed//
 	$(edBtn).hide();
@@ -37,7 +37,7 @@ function change4(){//hide all the elements except for the Contact, fade that in 
 	$(expBtn).hide();
 	$(cntBtn).fadeIn("medium");
 	$(copy).hide();
-	document.body.style.backgroundImage="url('https://raw.githubusercontent.com/ishah011/Website/gh-pages/images/contactbg.jpg')";
+	document.body.style.backgroundImage="url('images/contactbg.jpg')";
 }
 function change5(){//hide all the elements and change the background image//
 	$(edBtn).hide();
@@ -45,7 +45,7 @@ function change5(){//hide all the elements and change the background image//
 	$(expBtn).hide();
 	$(cntBtn).hide();
 	$(copy).show();
-	document.body.style.backgroundImage="url('https://raw.githubusercontent.com/ishah011/Website/gh-pages/images/homebg.jpg')";
+	document.body.style.backgroundImage="url('images/homebg.jpg')";
 }
 var about = document.getElementById("about-click");//create variable that is assigned to the about button on the nav bar//
 about.addEventListener('click', function(event) {//attach the change1 function to the about button; excutes it when about is clicked//
