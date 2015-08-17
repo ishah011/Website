@@ -401,7 +401,7 @@ ul#nav li.current a { color: #11ABB0; }
   	-webkit-animation: javascript 2s ease;
 }
 .Cmore {
-  	width: 20%;
+  	width: 60%;
   	-moz-animation: Cmore 2s ease;
   	-webkit-animation: Cmore 2s ease;
 }
