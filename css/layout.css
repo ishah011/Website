@@ -553,6 +553,8 @@ width: 33%; }
 /* on hover */
 .experience-item:hover .overlay {
 	opacity: 1;
+  background-color: #000f0f;
+  color: #ffffff;
 	-moz-opacity: 1;
 	filter:alpha(opacity=100);
 }
