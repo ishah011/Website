@@ -436,6 +436,10 @@ ul#nav li.current a { color: #11ABB0; }
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
+@-moz-keyframes python {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
 
 @-webkit-keyframes java {
   0%   { width: 0px;  }
@@ -458,6 +462,10 @@ ul#nav li.current a { color: #11ABB0; }
   100% { width: 80%;  }
 }
 @-webkit-keyframes Cmore {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+@-webkit-keyframes python {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
