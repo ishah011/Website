@@ -391,7 +391,7 @@ ul#nav li.current a { color: #11ABB0; }
   	-webkit-animation: html 2s ease;
 }
 .c {
-  	width: 20%;
+  	width: 60%;
   	-moz-animation: c 2s ease;
   	-webkit-animation: c 2s ease;
 }
@@ -404,6 +404,12 @@ ul#nav li.current a { color: #11ABB0; }
   	width: 60%;
   	-moz-animation: Cmore 2s ease;
   	-webkit-animation: Cmore 2s ease;
+}
+
+.python{
+  width: 40%;
+  -moz-animation: python 2s ease;
+  -webkit-animation: python 2s ease;
 }
 
 @-moz-keyframes java {
