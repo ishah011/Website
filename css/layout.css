@@ -376,7 +376,7 @@ ul#nav li.current a { color: #11ABB0; }
 }
 
 .java {
-  	width: 50%;
+  	width: 40%;
   	-moz-animation: java 2s ease;
   	-webkit-animation: java 2s ease;
 }
@@ -386,12 +386,12 @@ ul#nav li.current a { color: #11ABB0; }
   	-webkit-animation: css 2s ease;
 }
 .html {
-  	width: 70%;
+  	width: 55%;
   	-moz-animation: html 2s ease;
   	-webkit-animation: html 2s ease;
 }
 .c {
-  	width: 60%;
+  	width: 45%;
   	-moz-animation: c 2s ease;
   	-webkit-animation: c 2s ease;
 }
@@ -401,13 +401,13 @@ ul#nav li.current a { color: #11ABB0; }
   	-webkit-animation: javascript 2s ease;
 }
 .Cmore {
-  	width: 60%;
+  	width: 40%;
   	-moz-animation: Cmore 2s ease;
   	-webkit-animation: Cmore 2s ease;
 }
 
 .python{
-  width: 40%;
+  width: 55%;
   -moz-animation: python 2s ease;
   -webkit-animation: python 2s ease;
 }
