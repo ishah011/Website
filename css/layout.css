@@ -375,41 +375,37 @@ ul#nav li.current a { color: #11ABB0; }
    border-radius: 3px 0 0 3px;
 }
 
-.java {
-  	width: 40%;
+.angular {
+  	width: 50%;
   	-moz-animation: java 2s ease;
   	-webkit-animation: java 2s ease;
 }
-.css {
-  	width: 55%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
-}
-.html {
-  	width: 55%;
-  	-moz-animation: html 2s ease;
-  	-webkit-animation: html 2s ease;
-}
-.c {
-  	width: 45%;
-  	-moz-animation: c 2s ease;
-  	-webkit-animation: c 2s ease;
+.flask {
+  	width: 40%;
+  	-moz-animation: flask 2s ease;
+  	-webkit-animation: flask 2s ease;
 }
 .javascript {
-  	width: 40%;
+  	width: 60%;
   	-moz-animation: javascript 2s ease;
   	-webkit-animation: javascript 2s ease;
 }
-.Cmore {
-  	width: 40%;
-  	-moz-animation: Cmore 2s ease;
-  	-webkit-animation: Cmore 2s ease;
+.Csharp {
+  	width: 60%;
+  	-moz-animation: Csharp 2s ease;
+  	-webkit-animation: Csharp 2s ease;
 }
 
 .python{
   width: 55%;
   -moz-animation: python 2s ease;
   -webkit-animation: python 2s ease;
+}
+
+.sql{
+  width: 35%;
+  -moz-animation: sql 2s ease;
+  -webkit-animation: sql 2s ease;
 }
 
 @-moz-keyframes java {
