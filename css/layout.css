@@ -9,7 +9,7 @@
    a. General Styles
    b. Header Styles
    c. About Section
-   d. Education Section
+   d. Experience Section
    e. Skills Section
    g. Contact Section
    h. Footer
@@ -230,54 +230,54 @@ ul#nav li.current a { color: #11ABB0; }
 
 
 /* ------------------------------------------------------------------ */
-/* d. Education Section
+/* d. Experience Section
 /* ------------------------------------------------------------------ */
-#education {
+#experience {
    background: #000;
    padding-top: 50px;
    padding-bottom: 10px;
    overflow: hidden;
 }
 
-#education a, #education a:visited  { color: #11ABB0; }
-#education a:hover, #education a:focus { color: #313131; }
+#experience a, #experience a:visited  { color: #11ABB0; }
+#experience a:hover, #experience a:focus { color: #313131; }
 
-#education h1 {
+#experience h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    color: #fff;
 }
-#education h1 span {
+#experience h1 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
 }
-#education h3 {
+#experience h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#education p{
+#experience p{
   color: #6E7881;
 }
 
-#education .header-col { padding-top: 9px; }
-#education .main-col { padding-right: 10%; }
+#experience .header-col { padding-top: 9px; }
+#experience .main-col { padding-right: 10%; }
 
-.education, .work {
+.experience, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
 }
-#education .info {
+#experience .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
 }
-#education .info span {
+#experience .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
-#education .date {
+#experience .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
